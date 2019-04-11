@@ -10,7 +10,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace>
     </RootNamespace>
-    <ProjectGuid>{07862C7E-66AB-D69A-A713-C5A4966ECAA3}</ProjectGuid>
+    <ProjectGuid>{E72CC29C-467C-EE5B-DFD9-911738354272}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -61,17 +61,28 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\CameraRotate.cs" />
+    <Compile Include="Assets\Scripts\CameraZoom.cs" />
+    <Compile Include="Assets\Scripts\CubeMap.cs" />
     <Compile Include="Assets\Scripts\Footsteps.cs" />
     <Compile Include="Assets\Scripts\MartialArts.cs" />
     <Compile Include="Assets\Scripts\PostProcessor.cs" />
     <Compile Include="Assets\Scripts\PunchAnimationBehaviour.cs" />
-    <Compile Include="Assets\Scripts\TimeScaler.cs" />
-    <None Include="Assets\ShadersMaterials\Pulse.shader" />
+    <Compile Include="Assets\Scripts\QuietWalk.cs" />
+    <Compile Include="Assets\Scripts\Ragdoll.cs" />
+    <Compile Include="Assets\Scripts\RagdollTrigger.cs" />
+    <Compile Include="Assets\Scripts\TimeSlider.cs" />
+    <None Include="Assets\ShadersMaterials\RimPulse.shader" />
+    <None Include="Assets\ShadersMaterials\CubemapReflection.shader" />
     <None Include="Assets\ShadersMaterials\Transparent.shader" />
     <None Include="Assets\ShadersMaterials\Unlit.shader" />
+    <None Include="Assets\ShadersMaterials\InvertGrabPass.shader" />
+    <None Include="Assets\ShadersMaterials\TransparentPulse.shader" />
+    <None Include="Assets\ShadersMaterials\Slices.shader" />
     <None Include="Assets\ShadersMaterials\Blur.shader" />
     <None Include="Assets\ShadersMaterials\Invert.shader" />
     <None Include="Assets\ShadersMaterials\Surface.shader" />
+    <None Include="Assets\ShadersMaterials\ShadowOnly.shader" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>C:/Users/s181631/source/repos/UnityGraphics/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
@@ -315,12 +326,6 @@
     <Reference Include="Boo.Lang">
       <HintPath>C:/Program Files/Unity 2018.2.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unity/Boo.Lang.dll</HintPath>
     </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{071B4D3B-E5C7-7E90-1447-98BD404E825A}</Project>
-      <Name>Assembly-CSharp-firstpass</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
