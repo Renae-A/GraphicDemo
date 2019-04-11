@@ -61,22 +61,28 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\PostProcessor.cs" />
-    <None Include="Assets\Unlit.shader" />
-    <None Include="Assets\Blur.shader" />
-    <None Include="Assets\Invert.shader" />
-    <None Include="Assets\Surface.shader" />
+    <Compile Include="Assets\Scripts\Footsteps.cs" />
+    <Compile Include="Assets\Scripts\MartialArts.cs" />
+    <Compile Include="Assets\Scripts\PostProcessor.cs" />
+    <Compile Include="Assets\Scripts\PunchAnimationBehaviour.cs" />
+    <Compile Include="Assets\Scripts\TimeScaler.cs" />
+    <None Include="Assets\ShadersMaterials\Pulse.shader" />
+    <None Include="Assets\ShadersMaterials\Transparent.shader" />
+    <None Include="Assets\ShadersMaterials\Unlit.shader" />
+    <None Include="Assets\ShadersMaterials\Blur.shader" />
+    <None Include="Assets\ShadersMaterials\Invert.shader" />
+    <None Include="Assets\ShadersMaterials\Surface.shader" />
     <Reference Include="UnityEditor.StandardEvents">
-      <HintPath>C:/Users/s181631/Documents/Shaders/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+      <HintPath>C:/Users/s181631/source/repos/UnityGraphics/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>C:/Users/s181631/Documents/Shaders/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>C:/Users/s181631/source/repos/UnityGraphics/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>C:/Users/s181631/Documents/Shaders/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>C:/Users/s181631/source/repos/UnityGraphics/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>C:/Users/s181631/Documents/Shaders/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>C:/Users/s181631/source/repos/UnityGraphics/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity 2018.2.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -312,7 +318,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{404417BC-21C8-A175-2598-3B99378C9B35}</Project>
+      <Project>{071B4D3B-E5C7-7E90-1447-98BD404E825A}</Project>
       <Name>Assembly-CSharp-firstpass</Name>
     </ProjectReference>
   </ItemGroup>
