@@ -61,17 +61,28 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\MaterialAction.cs" />
+    <Compile Include="Assets\Scripts\Action.cs" />
+    <Compile Include="Assets\Scripts\AI.cs" />
     <Compile Include="Assets\Scripts\CameraRotate.cs" />
     <Compile Include="Assets\Scripts\CameraZoom.cs" />
     <Compile Include="Assets\Scripts\CubeMap.cs" />
     <Compile Include="Assets\Scripts\Footsteps.cs" />
     <Compile Include="Assets\Scripts\MartialArts.cs" />
+    <Compile Include="Assets\Scripts\PhysicsObject.cs" />
+    <Compile Include="Assets\Scripts\Player.cs" />
     <Compile Include="Assets\Scripts\PostProcessor.cs" />
-    <Compile Include="Assets\Scripts\PunchAnimationBehaviour.cs" />
     <Compile Include="Assets\Scripts\QuietWalk.cs" />
     <Compile Include="Assets\Scripts\Ragdoll.cs" />
     <Compile Include="Assets\Scripts\RagdollTrigger.cs" />
+    <Compile Include="Assets\Scripts\Selector.cs" />
+    <Compile Include="Assets\Scripts\Spawner.cs" />
     <Compile Include="Assets\Scripts\TimeSlider.cs" />
+    <Compile Include="Assets\Scripts\Turner.cs" />
+    <Compile Include="Assets\Scripts\UIAction.cs" />
+    <Compile Include="Assets\Scripts\UIActionList.cs" />
+    <Compile Include="Assets\Scripts\UIPanel.cs" />
+    <Compile Include="Assets\SizeAction.cs" />
     <None Include="Assets\ShadersMaterials\RimPulse.shader" />
     <None Include="Assets\ShadersMaterials\CubemapReflection.shader" />
     <None Include="Assets\ShadersMaterials\Transparent.shader" />
